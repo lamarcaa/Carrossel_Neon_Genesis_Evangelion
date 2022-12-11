@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+input
+{
+    display: none;
+}
+
+.hero
+{
+    position: fixed;
+}
+
+.slides
+{
+    display: flex;
+    width: 501%;
+    height: 100%;
+}
+
+.slides img
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.content
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;    
+}
+
+.navigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -30px;
+}
+
+.bar
+{
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.bar:hover
+{
+    background-color: rgb(160, 156, 156);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#slide1:checked ~ .s1
+{
+    margin-left: 0;
+    transition: 0.6s;
+}
+
+#slide2:checked ~ .s1
+{
+    margin-left: -20%;
+    transition: 0.6s;
+}
+#slide3:checked ~ .s1
+{
+    margin-left: -40%;
+    transition: 0.6s;
+}
+
+
+.main-container
+{
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.imgasuka
+{
+    width: 30% !important;
+}
+
+.imgasuka2
+{
+    width: 40% !important;
+}
+
+.cont-dir
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.6s;
+
+}
+
+.cont-dir > h1
+{
+    font-size: 5rem;
+    max-width: 300px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.cont-dir > div
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-dir > div > a
+{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 15vh;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 35px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 35px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 35px -16px rgba(0,0,0,0.75);
+}
+
+.cont-dir > div > p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.main-container > img
+{
+    margin-top: 8%;
+}
+
+.cont-esq
+{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    color: rgb(24, 24, 24);
+}
