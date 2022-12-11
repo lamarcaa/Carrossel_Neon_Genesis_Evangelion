@@ -2,6 +2,8 @@
 
 <h3> Neon Genesis Evangelion </h3>
 
+🎈 Demo: https://carrossel-evangelion.netlify.app/
+
 <a href="https://imgur.com/kxrivA3"><img src="https://i.imgur.com/kxrivA3.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/8QeF4Vn"><img src="https://i.imgur.com/8QeF4Vn.png" title="source: imgur.com" /></a>
